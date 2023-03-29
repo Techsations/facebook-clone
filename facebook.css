@@ -1,0 +1,31 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: rgb(240, 242, 245);
+    padding-top: 130px;
+    padding-bottom: 170px;
+}
+
+.display{
+    display: flex;
+}
+
+.fb-logo-section {
+    /* background-color: green; */
+    margin-left: 150px;
+    height: fit-content;
+    margin-top: 40px;
+}
+
+.fb-logo-img {
+    width: 290px;
+    /* background-color: red; */
+}
