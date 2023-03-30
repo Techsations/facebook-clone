@@ -333,3 +333,213 @@ select {
     color: black;
     font-weight: bold;
 }
+
+.f-div,
+.m-div,
+.c-div{
+    border: 1px solid rgb(204, 208, 213);
+    width: 33%;
+    border-radius: 4px;
+    height: 35px;
+    outline: none;
+    padding-left: 10px;
+    margin-left: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+}
+
+.m-div,
+.c-div {
+    margin-left: 10px;
+} 
+
+.m-div{
+    width: 28%;
+}
+
+.c-div{
+    margin-right: 5px;
+}
+
+.f-label,
+.m-label,
+.c-label{
+    margin-right: 38px;
+}
+
+.custom-drop{
+    top: 35px;
+    left: -275px;
+    width: 420px;
+    height: fit-content;
+    background-color: white;
+    border-radius: 0 0 05px 5px;
+    margin-bottom: 50px;
+    display: none;
+}
+
+.pronoun-select{
+    background-color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.c-div:focus-within .custom-drop{
+    display: block;
+}
+
+.custom-selector{
+    width: 380px;
+    height: 35px;
+    font-size: 14px;
+    /* margin-bottom: 10px; */
+}
+.visible-to-everyone,
+.people-text {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(157,157,157);
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+
+#custom-gender{
+    border: 1px solid rgb(204, 208, 213);
+    background-color: rgb(245, 246, 247);
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 380px;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+    outline: none;
+}
+
+.normal-display-text{
+    top: 50px;
+    /* top: 150px; */
+    left: -255px;
+    width: 380px;
+}
+.people-text{
+    font-size: 10.5px;
+}
+
+.people-text a{
+    text-decoration: none;
+}
+
+.create-page-link:hover,
+.people-text a:hover {
+    text-decoration: underline;
+}
+
+.text-before-signup-btn{
+    margin: 10px 0;
+}
+.text-before-signup-btn1{
+    margin: 10px 5px 10px 5px;
+
+}
+
+.sign-up-btn-div {
+    /* background-color: blue; */
+    text-align: center;
+}
+
+.sign-up-btn-div .signUp-btn{
+    /* border: 1px solid black; */
+    background-color: rgb(19, 184, 19);
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px 70px 5px 70px;
+    font-weight: bold;
+    color: white;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.sign-up-btn-div .signUp-btn:hover{
+    background-color: rgb(71, 128, 71);
+    color: white;
+}
+
+.footer-child {
+    margin: 20px 180px;
+}
+
+.f-text {
+    margin-bottom: -20px;
+    flex-wrap: wrap;
+}
+
+.link-text,
+.link-text-UK,
+.link-text1,
+.meta-text {
+    font-size: 12px;
+    margin-right: 10px;
+    text-decoration: none;
+    color: rgb(157,157,157);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.link-text-UK {
+    color: rgb(157,157,157);
+}
+
+.link-text:hover,
+.link-text1:hover {
+    text-decoration: underline;
+}
+
+.div-overflow {
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+}
+
+.link-text1 {
+    margin-right: 20px;
+}
+
+.meta-text {
+    font-size: 11px;
+    color: rgb(157,157,157);
+}
+
+.cross-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 20px;
+    border: 1px solid rgb(204, 208, 213);
+}
+
+.cross {
+    font-size: 12px;
+    color: rgb(103, 110, 125);
+}
+
+::-webkit-scrollbar{
+    width: 0;
+}
+
+
+
+@media (max-width: 900px) {
+    .display{
+        display: block;
+    }
+
+    .form-div-parent{
+        margin-left: 170px;
+    }
+
+    .fb-logo-section .p{
+        width: 400px;
+        text-align: center;
+    }
+}
