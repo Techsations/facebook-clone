@@ -1015,3 +1015,454 @@ button {
     font-size: 13px;
 }
 /* --------------------------End of right nav styling----------------- */
+
+/* --------------------------------content styling---------------------------------------- */
+.watch-content {
+    margin-top: 58px;
+    background-color: rgb(24,25,26);
+    /* background-color: red; */
+}
+
+/* -------------------- watch left section------------------- */
+.left-section{
+    /* width: 365px; */
+    width: 36%;
+    height: 100vh;
+    border-right: 1px solid rgb(57, 58, 59);
+    background-color: rgb(36,37,38);
+    /* background-color: red; */
+}
+
+.pad1-div{
+    padding: 15px;
+}
+
+.watch-text{
+    font-weight: 700;
+}
+
+.settings-icon{
+    font-size: 20px;
+    background-color: rgb(90, 91, 92);
+    padding: 8px 7px 8px 8px;
+    border-radius: 100%;
+}
+
+.settings-icon:hover{
+    background-color: rgb(128, 129, 131);
+}
+
+.search-video-input{
+    outline: none;
+    height: 35px;
+    border-radius: 20px;
+    padding-left: 30px;
+    background-color: rgb(58,59,60);
+}
+
+.search-video-input::placeholder{
+    color: rgb(176, 179, 184);
+    font-size: 15px;
+}
+
+.search-video-div:focus-within .search-video-input::placeholder{
+    color: rgb(138, 138, 139);
+}
+
+.s-icon{
+    left: 10px;
+    top: 20px;
+    font-size: 13px;
+}
+
+.pad2-div{
+    /* background-color: red; */
+    margin: 0 7px;
+}
+
+.watch-btn-div{
+    border-radius: 8px;
+    padding: 10px 8px;
+}
+
+.watch-btn-div:hover{
+    background-color: rgb(58, 59, 60);
+}
+
+.watch-btn-div:focus-within{
+    background-color: rgb(58, 59, 60);
+}
+
+.w-text{
+    margin-left: 10px;
+    font-weight: 600;
+}
+
+.t1-icon,
+.t2-icon,
+.t3-icon,
+.t4-icon{
+    padding: 10px 8px;
+    border-radius: 100%;
+    /* background-color: red; */
+}
+
+.t3-icon{
+    font-size: 20px;
+    padding: 6px 8px 7px 7px;
+}
+
+.t4-icon{
+    /* font-size: 20px; */
+    padding: 10px 12px 10px 11px;
+}
+
+.watch-btn-div:focus-within .t1-icon{
+    background-color: rgb(24,119,242);
+}
+
+.watch-btn-div:focus-within .t2-icon{
+    background-color: rgb(240,40,74);
+}
+
+.watch-btn-div:focus-within .t3-icon{
+    background-color:rgb(42,187,167);
+}
+
+.watch-btn-div:focus-within .t4-icon{
+    background-color:rgb(247,185,40);
+}
+
+/* --------------------------------------end of left section--------------------------------- */
+
+/* -------------------------------------------watch middle section---------------------- */
+.middle-section{    
+    background-color: rgb(24,25,26);
+    height: 100vh;
+}
+
+.watch-content-div{
+    text-align: left;
+    /* background-color: green; */
+    background-color: rgb(24,25,26);
+    height: 100%;
+    padding-top: 20px;
+    width: 100%;
+    overflow: auto;
+    padding-bottom: 60px;
+}
+
+.new-div{
+    background-color: rgb(36,37,38);
+    /* background-color: red; */
+    margin-bottom: 10px;
+    border-radius: 10px;
+    width: 70%;
+    margin-left: 15%;
+    margin-left: 15%;
+}
+
+.box-pad{
+    padding: 10px;
+}
+
+.box-pad a{
+    text-decoration: none;
+}
+
+.box-pad a:hover{
+    text-decoration: underline;
+}
+
+.p{
+    margin-left: 10px;
+    line-height: 17px;
+}
+
+.pix{
+    width: 50px;
+    border-radius: 100%;
+}
+
+.t1{
+    font-size: 15px;
+    color: rgb(228,230,235);
+    font-weight: 600;
+    margin-right: 3px;
+}
+
+.t2{
+    margin-left: 3px;
+    font-size: 15px;
+    color: rgb(0, 119, 255);
+}
+
+.t3{
+    color: rgb(176, 179, 184);
+    font-size: 13px;
+    margin-right: 3px;
+}
+
+.z{
+    color: rgb(176, 179, 184);
+}
+
+.m-icon{
+    padding: 8px 10px;
+    border-radius: 100%;
+}
+
+.m-icon:hover{
+    background-color: rgb(58, 59, 60);
+}
+
+.e-icon{
+    font-size: 11px;
+    margin-left: 3px;
+    color: rgb(176, 179, 184);
+}
+
+.box-pad2{
+    padding: 0 10px;
+    font-size: 21px;
+}
+
+.watch-video-div{
+    background-color: black;
+}
+
+.watch-video{
+    height: 400px;
+}
+
+.ogb-img-div{
+    background-color: black;
+}
+
+.ogb-img{
+    width: 220px;
+    height: 400px;
+}
+
+.watch-video-footer{
+    padding: 0 10px;
+}
+
+.f1{
+    /* background-color: red; */
+    width: 35%;
+}
+
+.likey-text,
+.comm-text,
+.share1-text{
+    margin-left: 5px;
+    font-size: 14px;
+    color: rgb(169, 177, 185);
+}
+
+.like-section1,
+.comment-section1,
+.share-section1{
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.like-section1:hover,
+.comment-section1:hover,
+.share-section1:hover{
+    background-color: rgb(58, 59, 60);
+}
+
+.likey-icon,
+.comm-icon,
+.share1-icon{
+    font-size: 20px;
+    color: rgb(169, 177, 185);
+}
+
+.r-side{
+    font-size: 13px;
+}
+
+.r-side a{
+    text-decoration: none;
+}
+
+.r-side a:hover{
+    text-decoration: underline;
+}
+
+.w{
+    color: rgb(169, 177, 185);
+}
+
+.y{
+    color: rgb(169, 177, 185);
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+
+
+/* --------------------------------------end of middle section----------------------------------------- */
+/* ---------------------------fixed message button--------------------- */
+
+.c-msg-fixed-div {
+    bottom: 20px;
+    right: 20px;
+}
+
+.c-msg-div {
+    background-color: rgb(75, 76, 79);
+    padding: 12px 13px 12px 15px;
+    border-radius: 100%;
+}
+
+.new-msg {
+    font-size: 20px;
+}
+
+.c-msg-div:hover {
+    background-color: rgb(110, 112, 119);
+}
+
+.dt-icon1-div {
+    top: -50px;
+    background-color: rgb(75, 76, 79);
+    padding: 8px 11px 6px 10px;
+    border-radius: 100%;
+    visibility: hidden;
+}
+
+.dt-icon1 {
+    font-size: 20px;
+}
+
+.dt-icon-dropup {
+    padding: 8px 8px 0 8px;
+    width: 320px;
+    height: 83px;
+    background-color: rgb(36,37,38);
+    top: -120px;
+    left: -310px;
+    border-radius: 10px 10px 0 10px;
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.199);
+    visibility: hidden;
+}
+
+.dt-icon-dropup::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 15px 0 0 15px;
+    transform: rotate(180deg);
+    border-color: transparent transparent transparent rgb(36,37,38);
+    bottom: -15px;
+    right: 0;
+}
+
+.dot-option:focus-within .dt-icon-dropup{
+    visibility: visible;
+}
+
+.circle-x{
+    font-size: 22px;
+}
+
+.dropup-txt{
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+.drp-text-div{
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.drp-text-div2{
+    border-radius: 5px;
+    padding: 3px 0 0 5px;
+}
+
+.drp-text-div:hover,
+.drp-text-div2:hover{
+    background-color: rgb(58, 59, 60);
+}
+
+.c-msg-fixed-div:focus-within .dt-icon1-div,
+.c-msg-fixed-div:focus-within .msg-box-div,
+.c-msg-div:hover .c-msg-tooltip {
+    visibility: visible;
+}
+
+.c-msg-tooltip {
+    text-align: left;
+    font-size: 13px;
+    left: -100px;
+    top: 10px;
+    padding: 5px 10px;
+    border-radius: 8px;
+    background-color: rgb(224, 229, 231);
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    color: black;
+    visibility: hidden;
+    transition: all 0s ease-in;
+    transition-delay: 0.5s;
+    z-index: 13;
+}
+
+.msg-box-div {
+    width: 330px;
+    height: 458px;
+    background-color: rgb(36, 37, 38);
+    top: -390px;
+    left: -340px;
+    border-radius: 10px 10px 0 0;
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.219);
+    visibility: hidden;
+}
+
+.new-msg-text {
+    font-weight: 600;
+}
+
+.x-msg {
+    font-size: 22px;
+}
+
+.to {
+    margin-top: 15px;
+    margin-left: 5px;
+    cursor: text;
+}
+
+.input-to {
+    background-color: inherit;
+    outline: none;
+    padding-left: 10px;
+    width: 150px;
+}
+
+.suggest-text {
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    color: rgb(0, 102, 255);
+}
+
+.hr1 {
+    height: 3px;
+    background-color: rgb(0, 102, 255);
+    margin-top: 15px;
+}
+
+/* -------------enf of fixed message button----------------- */
+
+
+
+::-webkit-scrollbar {
+    width: 8px;
+}
